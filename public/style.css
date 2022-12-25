@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+	--background-primary: #F0E8E8;
+	--background-secondary: #F5D9D9;
+	--background-tertiary: #F8CBCA;
+	
+	--accent-primary: #6266b2;
+	--accent-primary-hover: #3d407f;
+	--accent-secondary: #C8C3E4;
+	--accent-secondary-hover: #aca6c9;
+	--accent-tertiary: #cf5656;
+	--accent-tertiary-hover: #F87979;
+
+	--text-primary: #000;
+	--text-secondary: #e9f3ff;
+	--text-tertiary: #494949;
+	--text-white: #fff;
+
+	--shadow-card: 0 8px 20px #3d407f38;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	overflow-x: hidden;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;	
+	color: var(--text-secondary);
+	background: var(--background-primary);
+	scroll-behavior: smooth;
+	
+}
+
+body.no-overflow {
+	overflow: hidden;
+}
+
+h3 {
+	font-size: 32px;	
+	color: var(--text-primary);
+}
+
+a {
+	text-decoration: none;
+	width: fit-content;
+	color: var(--primary-text-color);
+}
+
+a span {
+	transition: color 0.5s;
+	font-size: 22px;
+}
+
+a:hover span {
+	border-bottom: 2px solid var(--text-primary);
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	position: fixed;
+	flex-direction: row;
+	top: 0px;
+	flex-wrap: wrap;
+	z-index: 4;
+	width: calc(100% - 64px);
+	height: 80px;
+	padding: 32px;
+	transition: 0.5s;
+	width: 100vw; 
+	box-sizing: border-box;
+}
+
+nav.full {
+	height: 100%;
+	background: var(--background-primary);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	opacity: 1;
+	margin: 0;
+	padding-top: 50%;
+}
+
+nav svg:first-child {
+	opacity: 0;
+}
+
+nav > * {
+	z-index: 2;
+}
+
+nav .right {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+}
+
+nav h3 {
+	color: var(--accent-tertiary);
+	font-family: 'DM Serif Display', serif;		
+	background-color: var(--text-secondary); 
+	padding: 3px; 
+	padding-bottom: 4px; 
+	padding-left: 20px; 
+	padding-right: 20px; 
+	border-radius: 50px; 
+}
+
+nav .right .links {
+	display: flex;
+	gap: 16px;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+nav .right .links a span {
+	font-size: 18px;
+}
+
+nav .right .links a:hover span {
+	color: var(--accent-tertiary);
+	border-bottom: 2px solid var(--accent-tertiary);
+}
+
+nav .right button {
+	width: 120px;
+	height: 40px;
+	margin-top: 0 !important;
+	font-size: 16px;
+}
+
+/*@media only screen and (max-width: 800px) {*/
+@media only screen and (max-width: 10px) {
+	.features-alt .column {
+		flex-direction: column;
+		gap: 32px;
+	}
+
+	.features-alt .column .feature {
+		text-align: center;
+	}
+}
+
+/*@media only screen and (max-width: 700px) {*/
+@media only screen and (max-width: 1030px) {
+	nav {
+		opacity: 1;
+		flex-direction: column;
+		justify-content: left;
+		margin-left: 15px;
+		margin-top: 15px;
+		padding: 0;
+		width: 100%;
+		align-content: flex-start; 
+	}
+	.right{
+		margin: 15px;
+	}
+	nav .right, nav .right .links {
+		flex-direction: column;
+		align-items: left;
+		margin-top: 25px;
+	}
+
+	nav.full {
+		padding-left: 4px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+	}
+
+	nav h3 {
+		position: fixed;
+		top: 16px;
+		left: 16px;
+	}
+
+	nav .right .links a span {
+		text-align: center;	
+		align-self: end;
+	}
+
+	nav .right button {
+		width: 100%;
+		height: 70px;
+		font-size: 24px;
+		border-radius: 16px;
+	}
+	.last-dropdown {
+	left: 0px; 
+	}
+
+	:root {
+	--background-primary: #F0E8E8;
+	--background-secondary: #F5D9D9;
+	--background-tertiary: #F8CBCA;
+	
+	--accent-primary: #6266b2;
+	--accent-primary-hover: #3d407f;
+	--accent-secondary: #C8C3E4;
+	--accent-secondary-hover: #aca6c9;
+	--accent-tertiary: #cf5656;
+	--accent-tertiary-hover: #F87979;
+
+	--text-primary: #000;
+	--text-secondary: #e9f3ff;
+	--text-tertiary: #494949;
+	--text-white: #fff;
+
+	--shadow-card: 0 8px 20px #3d407f38;
+	}
+}
+
+/*@media only screen and (max-width: 500px) {*/
+@media only screen and (max-width: 10px) {
+	h3 {
+		font-size: 26px;
+	}
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cf5656; 
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-tertiary-hover); 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.last-dropdown {
+	right: 0px; 
+}
+
+.main{
+	padding: 32px;
+	padding-top: 65vh; 
+	overflow: hidden; 
+	height: 100vh; 
+	vertical-align: baseline;
+	box-sizing: border-box;
+	background-image: url("assets/starship.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 5%;
+}
+
+.big-text .description-text .button {
+	padding: 18px; 
+}
+.big-text{
+	font-size: 35px; 
+	margin-bottom: 15px;
+}
+.description-text{
+	font-weight: bold; 
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.button{
+	font-size: 20px;
+	padding: 5px; 
+	padding-left: 7px; 
+	padding-right: 7px; 
+	border: 2px solid var(--text-secondary);
+	background: linear-gradient(to left, transparent 50%, var(--text-secondary) 50%) right;
+	background-size: 200%;
+  transition: .45s ease-out;
+}
+.button:hover{
+	background-position: left;
+	color: var(--text-tertiary); 
+	transition: background-position 0.3s, color 0.3s, transform 2s;
+}
