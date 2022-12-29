@@ -1,1 +1,14 @@
-starship.jpg: https://www.freethink.com/space/space-planes
+shuttle_imgs/starship-1.jpg: https://www.freethink.com/space/space-planes
+shuttle_imgs/starship-2.jpeg: https://spacenews.com/fcc-license-application-sheds-light-on-spacex-vehicle-testing-plans/
+shuttle_imgs/starship-3.jpeg: https://hsvchamber.org/hsv-approved-to-land-commercial-space-vehicles/
+shuttle_imgs/starship-4.jpeg: https://www.aircharterserviceusa.com/about-us/news-features/blog/spaceshipone-the-first-commercial-spacecraft
+
+processes_imgs/takeoff.jpeg: https://spaceflightnow.com/2021/05/13/spacex-outlines-plans-for-around-the-world-starship-test-flight/
+processes_imgs/landing.jpeg: https://spacenews.com/nasa-selects-intuitive-machines-for-clps-lunar-landing-mission/
+processes_imgs/orbit.jpeg: https://www.teslarati.com/spacex-elon-musk-starship-orbital-launch-schedule/
+
+spacewalk.jpeg: https://www.dkfindout.com/us/space/life-in-space/space-walk/
+
+after.jpeg: https://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-station/
+
+xkcd.jpeg: https://www.wired.com/story/xkcds-randall-munroe-on-how-to-mail-a-package-from-space/

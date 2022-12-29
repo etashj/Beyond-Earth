@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 :root {
-	--background-primary: #F0E8E8;
+	--background-primary: white; /*#F0E8E8*/
 	--background-secondary: #F5D9D9;
 	--background-tertiary: #F8CBCA;
 	
@@ -14,8 +14,8 @@
 	--accent-tertiary-hover: #F87979;
 
 	--text-primary: #000;
-	--text-secondary: #e9f3ff;
-	--text-tertiary: #494949;
+	--text-secondary: #494949;
+	--text-tertiary: #e9f3ff;
 	--text-white: #fff;
 
 	--shadow-card: 0 8px 20px #3d407f38;
@@ -149,7 +149,7 @@ nav .right button {
 }
 
 /*@media only screen and (max-width: 700px) {*/
-@media only screen and (max-width: 1030px) {
+@media only screen and (max-width: 830px) {
 	nav {
 		opacity: 1;
 		flex-direction: column;
@@ -197,7 +197,7 @@ nav .right button {
 	}
 
 	:root {
-	--background-primary: #F0E8E8;
+	--background-primary: white; /*#F0E8E8*/
 	--background-secondary: #F5D9D9;
 	--background-tertiary: #F8CBCA;
 	
@@ -209,12 +209,13 @@ nav .right button {
 	--accent-tertiary-hover: #F87979;
 
 	--text-primary: #000;
-	--text-secondary: #e9f3ff;
-	--text-tertiary: #494949;
+	--text-secondary: #494949;
+	--text-tertiary: #e9f3ff;
 	--text-white: #fff;
 
 	--shadow-card: 0 8px 20px #3d407f38;
 	}
+	
 }
 
 /*@media only screen and (max-width: 500px) {*/
@@ -277,15 +278,75 @@ nav .right button {
 	padding: 32px;
 	padding-top: 65vh; 
 	overflow: hidden; 
-	height: 100vh; 
+	min-height: 100vh; 
 	vertical-align: baseline;
 	box-sizing: border-box;
-	background-image: url("assets/starship.jpg");
+}
+.main-2{
+	padding: 32px;
+	padding-top: 100px; 
+	vertical-align: baseline;
+	box-sizing: border-box;
+	min-height: 100vh; 
+}
+
+.main-title {
+	background-image: url("assets/shuttle_imgs/starship-1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
 	background-position: 5%;
 }
-
+.main-shuttle-2 {
+	background-image: url("assets/shuttle_imgs/starship-2.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 5%;
+	text-align: right; 
+	color: #242424; 
+}
+.main-shuttle-3 {
+	background-image: url("assets/shuttle_imgs/starship-3.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 5%;
+}
+.main-shuttle-4 {
+	background-image: url("assets/shuttle_imgs/starship-4.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 5%;
+}
+.main-takeoff {
+	background-image: url("assets/processes_imgs/takeoff.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 5%;
+}
+.main-orbit {
+	background-image: url("assets/processes_imgs/orbit.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 5%;
+	text-align: right; 
+}
+.main-landing {
+	background-image: url("assets/processes_imgs/landing.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 5%;
+}
+.main-training {
+	background-image: url("assets/spacewalk.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 5%;
+}
+.main-after {
+	background-image: url("assets/after.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	background-position: 5%;
+}
 .big-text .description-text .button {
 	padding: 18px; 
 }
@@ -296,8 +357,20 @@ nav .right button {
 .description-text{
 	font-weight: bold; 
 	font-size: 20px;
-	margin-bottom: 50px;
+	margin-bottom: 35px;
 }
+
+.description-text-2{
+	font-size: 16px;
+	margin-bottom: 35px;
+	width: 65%;
+}
+.description-text-3{
+	font-size: 16px;
+	margin-bottom: 35px;
+	width: 100%;
+}
+
 .button{
 	font-size: 20px;
 	padding: 5px; 
@@ -312,4 +385,179 @@ nav .right button {
 	background-position: left;
 	color: var(--text-tertiary); 
 	transition: background-position 0.3s, color 0.3s, transform 2s;
+}
+
+.button-special{
+	border: 2px solid var(--text-tertiary);
+	background: linear-gradient(to left, transparent 50%, var(--text-tertiary) 50%) right;
+	background-size: 200%;
+  transition: .45s ease-out;
+}
+.button-2{
+	border: 2px solid var(--text-tertiary);
+	background: linear-gradient(to left, transparent 50%, var(--text-tertiary) 50%) right;
+	background-size: 200%;
+  transition: .45s ease-out;
+}
+.button-2:hover{
+	background-position: left;
+	color: var(--text-secondary); 
+	transition: background-position 0.3s, color 0.3s, transform 2s;
+}
+.button-special:hover{
+	background-position: left;
+	color: var(--text-secondary); 
+	transition: background-position 0.3s, color 0.3s, transform 2s;
+}
+
+.button-secondary{
+	font-size: 20px;
+	padding: 5px; 
+	padding-left: 7px; 
+	padding-right: 7px; 
+	border: 2px solid var(--text-tertiary);
+	background: linear-gradient(to left, transparent 50%, var(--text-secondary) 50%) right;
+	background-size: 200%;
+  transition: .45s ease-out;
+}
+.button-secondary:hover{
+	background-position: left;
+	color: var(--text-secondary); 
+	transition: background-position 0.3s, color 0.3s, transform 2s;
+}
+
+table {
+	border: 1px solid;
+	border-collapse: collapse;
+}
+th {
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 5px; 
+	background-color: var(--background-tertiary);
+}
+td {
+	border: 1px solid;
+	border-collapse: collapse;
+	padding: 2.5px; 
+}
+.pricing-table{
+	width: 200px; 
+	margin: 15px; 
+	text-align: center; 
+	padding: 15px; 
+	font-size: 20px;
+}
+.pricing-table-div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+@media only screen and (max-width: 830px) {
+	.main-2{
+		padding-top: 375px; 
+	}
+	.pricing-table-div{
+		flex-direction: column;
+	}
+}
+.butt-div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.butt-div-2{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+.butt-div-3{
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+}
+.button {
+	margin: 10px; 
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: flex-start;
+	background-color: var(--text-secondary);
+	color: var(--text-tertiary);
+	font-size: 0.8em;
+}
+.right-footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	align-items: flex-start;
+}
+.footer-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 15px; 
+	align-items: flex-start;
+}
+.footer-item > a {
+	text-decoration: underline;
+}
+.footer-item > p {
+	margin-bottom: 2.5px;
+}
+.footer-logo{
+	color: var(--text-tertiary);
+}
+.left-footer {
+	height: 100%; 
+	padding: 15px; 
+	margin: auto; 
+}
+@media only screen and (max-width: 550px) {
+	.footer {	
+		flex-direction: column;
+		align-items: center;
+	}
+	.right-footer{ 
+		flex-direction: column; 
+	}
+	.butt-div{
+		flex-direction: column;
+	}
+	.butt-div-2{
+		flex-direction: column;
+	}
+	.butt-div-3{
+		flex-direction: column;
+	}
+	
+}
+
+@media only screen and (max-width: 700px) {
+.main-orbit{
+		background-image: none;
+		background-color: var(--text-secondary);
+	}
+}
+#about-flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.main-16{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
