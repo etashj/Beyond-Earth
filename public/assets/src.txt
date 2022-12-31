@@ -12,3 +12,8 @@ spacewalk.jpeg: https://www.dkfindout.com/us/space/life-in-space/space-walk/
 after.jpeg: https://www.nasa.gov/press-release/record-setting-nasa-astronaut-crewmates-return-from-space-station/
 
 xkcd.jpeg: https://www.wired.com/story/xkcds-randall-munroe-on-how-to-mail-a-package-from-space/
+
+
+moonbase spacex: https://www.tesmanian.com/blogs/tesmanian-blog/moon-base-alpha
+space-settelment: https://www.procon.org/headlines/space-colonization-top-3-pros-and-cons/
+moonbase-2: https://www.geekwire.com/2017/elon-musks-updated-vision-mars-also-shoots-moon-much/
