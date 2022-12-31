@@ -307,6 +307,9 @@ nav .right button {
 	background-position: 5%;
 	transition: background-image 2s, transform 2s;
 	animation: fade 1s linear; /* Fade CSS */
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 }
 .main-shuttle-2 {
 	background-image: url("assets/shuttle_imgs/starship-2.jpeg");
@@ -589,4 +592,9 @@ td {
   60% {
     transform: translateY(-15px);
   }
+}
+.noshow {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
 }
