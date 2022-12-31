@@ -306,7 +306,7 @@ nav .right button {
 	background-size: cover; 
 	background-position: 5%;
 	transition: background-image 2s, transform 2s;
-	animation: fade 1s linear;
+	animation: fade 1s linear; /* Fade CSS */
 }
 .main-shuttle-2 {
 	background-image: url("assets/shuttle_imgs/starship-2.jpeg");

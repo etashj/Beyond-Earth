@@ -1,4 +1,4 @@
-let x = 0
+let x = 1
 
 function change_back() {
 	main = document.getElementById("main-title");
