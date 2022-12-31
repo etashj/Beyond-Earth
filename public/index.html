@@ -64,9 +64,17 @@
 	<div class="main main-title">
 		<h2 class="big-text">Making the Future</h2>
 		<p class="description-text">See how to become a part of our mission today. </p>
-		<a class="button button-special" href="/planning/your_plan">Planning your trip</a>
+		<a class="button button-special" href="/planning/your_plan">Planning Your Trip</a>
 	</div>
   <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".nav");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+  </script>
 </body>
 
 </html>

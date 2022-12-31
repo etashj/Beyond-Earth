@@ -77,6 +77,11 @@ nav {
 	box-sizing: border-box;
 }
 
+.nav.scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
 nav.full {
 	height: 100%;
 	background: var(--background-primary);
