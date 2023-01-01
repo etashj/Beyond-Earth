@@ -395,6 +395,7 @@ nav .right button {
 	background: linear-gradient(to left, transparent 50%, var(--text-secondary) 50%) right;
 	background-size: 200%;
   transition: .45s ease-out;
+	margin-left: 0px;
 }
 .button:hover{
 	background-position: left;
@@ -496,6 +497,8 @@ td {
 }
 .button {
 	margin: 10px; 
+	margin-left: 0px; 
+	margin-right: 0px;
 }
 
 .footer {
