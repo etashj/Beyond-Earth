@@ -17,3 +17,6 @@ xkcd.jpeg: https://www.wired.com/story/xkcds-randall-munroe-on-how-to-mail-a-pac
 moonbase spacex: https://www.tesmanian.com/blogs/tesmanian-blog/moon-base-alpha
 space-settelment: https://www.procon.org/headlines/space-colonization-top-3-pros-and-cons/
 moonbase-2: https://www.geekwire.com/2017/elon-musks-updated-vision-mars-also-shoots-moon-much/
+
+
+https://replit.com/@webmasterFCASD2022/Beyond-Earth#public/style.css
